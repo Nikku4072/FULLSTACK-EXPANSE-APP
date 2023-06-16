@@ -1,0 +1,72 @@
+/* main.css */
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="number"],
+form input[type="text"],
+form input[type="date"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+ul#expense-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul#expense-list li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+ul#expense-list li span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+ul#expense-list li .edit-button,
+ul#expense-list li .delete-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+ul#expense-list li .edit-button {
+  background-color: #2196f3;
+  right: 80px;
+}
